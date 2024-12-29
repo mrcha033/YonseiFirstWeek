@@ -1,9 +1,43 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
-    text-align: center;
-    margin-top: 50px;
-}
-h1 {
     color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.profile {
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+a:hover {
+    color: #005fa3;
+}
+
+section {
+    margin: 50px;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+    .profile {
+      margin-bottom: 20px;
+    }
 }
