@@ -3,33 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>자기소개</title>
+    <title>차윤민 - 자기소개</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-<div class="container">
-    <img src="https://t1.daumcdn.net/thumb/R678x0/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fmovie%2Fa35df0595daa757eaf4db3038c61ba931f82a81d" alt="Profile" class="profile">
-    <div>
-        <h1>안녕하세요, 저는 연세대학교에 재학중인 차윤민이라고 합니다.</h1>
-        <p>경영학 전공자이고, CS 복수전공을 진행하며 주로 ML쪽 프로젝트를 해 왔었는데 웹쪽은 거의 문외한입니다.</p>
-        <a href="https://github.com/mrcha033">
-            <i class="fab fa-github"></i> Github
-        </a>
-    </div>
-</div>
+    <header class="container">
+        <img src="https://t1.daumcdn.net/thumb/R678x0/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fmovie%2Fa35df0595daa757eaf4db3038c61ba931f82a81d" 
+             alt="차윤민의 프로필 사진" 
+             class="profile">
+        <div>
+            <h1>안녕하세요, 저는 연세대학교에 재학중인 차윤민이라고 합니다.</h1>
+            <p>경영학 전공자이고, CS 복수전공을 진행하며 주로 ML쪽 프로젝트를 해 왔었는데 웹쪽은 거의 문외한입니다.</p>
+            <nav class="social-links">
+                <a href="https://github.com/mrcha033" aria-label="GitHub 프로필">
+                    <i class="fab fa-github"></i> Github
+                </a>
+            </nav>
+        </div>
+    </header>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>저는 경영학과 3학년, CS 2학년 재학중이며 ML을 통해 Macroeconomics 지표들을 분석하는 데에 관심이 많습니다.</p>
-</section>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>저는 경영학과 3학년, CS 2학년 재학중이며 ML을 통해 Macroeconomics 지표들을 분석하는 데에 관심이 많습니다.</p>
+        </section>
 
-<section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li>Quantitative trading 프로그램 제작</li>
-      <li>LLM 관련 프로젝트 등등...</li>
-    </ul>
-</section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <h3>Quantitative Trading 프로그램</h3>
+                    <p>변동성이 높은 종목을 수집하고, volatility를 사용하여 수익을 내는 프로그램을 제작하였습니다.</p>
+                </li>
+                <li>
+                    <h3>LLM 프로젝트</h3>
+                    <p>친한 친구와의 대화 내역을 수집하여 친구를 닮은 대화형 모델을 제작하였습니다.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 차윤민. All rights reserved.</p>
+    </footer>
 </body>
 </html>
